@@ -1,5 +1,12 @@
 @echo off
 
+:choice
+set /P c=THIS WILL RESTART YOUR PC, ARE YOU SURE YOU WANT TO RUN THIS FILE? (Y/N)
+if /I "%c%" EQU "Y" goto :Yes
+if /I "%c%" EQU "N" goto :No
+goto :choice
+
+:Yes
 cd C:/YTCOPY/Builder
 pip install pyinstaller
 pip install pytube3
@@ -14,4 +21,8 @@ rmdir build
 del main.spec
 ren C:\YTCOPY\main.exe ytdownload.exe
 setx path "%PATH%;C:\YTCOPY" /M
-pause
+shutdown -r
+exit
+
+:No
+exit
