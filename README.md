@@ -4,6 +4,8 @@ Command for download youtube videos
 ## Instuctions
 1, Unzip `YTCOPY.zip`
 
+1.5, Rename `YTCOPY-main` to `YTCOPY`
+
 2, Move `YTCOPY` into C Drive
 
 3, Run `Compile.bat` in Compiler folder
