@@ -12,4 +12,5 @@ rmdir build\main
 rmdir build
 del main.spec
 ren C:\YTCOPY\main.exe ytdownload.exe
+setx path "%PATH%;C:\YTCOPY" /M
 pause
