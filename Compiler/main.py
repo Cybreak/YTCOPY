@@ -23,6 +23,6 @@ def download(url):
         end = True
 
 print("Attemping Download...")
-out = download("gg")
+out = download(sys.argv[1])
 if end is False:
     print(f"Downloaded to {out}")
