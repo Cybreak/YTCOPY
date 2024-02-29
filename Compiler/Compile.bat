@@ -1,4 +1,5 @@
 pip install pyinstaller
+pip install pytube3
 pyinstaller main.py --onefile
 copy dist\main.exe C:\YTCOPY
 del dist\main.exe
