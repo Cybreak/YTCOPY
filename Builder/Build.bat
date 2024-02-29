@@ -1,3 +1,5 @@
+@echo off
+
 pip install pyinstaller
 pip install pytube3
 pyinstaller main.py --onefile
@@ -10,3 +12,4 @@ rmdir build\main
 rmdir build
 del main.spec
 ren C:\YTCOPY\main.exe ytdownload.exe
+pause
