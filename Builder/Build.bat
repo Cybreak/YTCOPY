@@ -1,5 +1,6 @@
 @echo off
 
+cd C:/YTCOPY/Builder
 pip install pyinstaller
 pip install pytube3
 pyinstaller main.py --onefile
