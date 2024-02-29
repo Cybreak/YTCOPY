@@ -8,7 +8,7 @@ Command for download youtube videos
 
 2, Move `YTCOPY` into C Drive
 
-3, Run `Compile.bat` in Compiler folder
+3, Run `Compile.bat` as Administrator in Compiler folder
 
 4, follow these instructions: https://gist.github.com/nex3/c395b2f8fd4b02068be37c961301caa7
 
